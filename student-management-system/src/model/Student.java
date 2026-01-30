@@ -1,14 +1,17 @@
 package model;
 
 public class Student {
+
     private int id;
     private String name;
-    private double gpa;
+    private int age;
+    private String department;
 
-    public Student(int id, String name, double gpa) {
+    public Student(int id, String name, int age, String department) {
         this.id = id;
         this.name = name;
-        this.gpa = gpa;
+        this.age = age;
+        this.department = department;
     }
 
     public int getId() {
@@ -19,12 +22,19 @@ public class Student {
         return name;
     }
 
-    public double getGpa() {
-        return gpa;
+    public int getAge() {
+        return age;
+    }
+
+    public String getDepartment() {
+        return department;
     }
 
     @Override
     public String toString() {
-        return "Student{id=" + id + ", name='" + name + "', gpa=" + gpa + "}";
+        return "ID: " + id +
+               ", Name: " + name +
+               ", Age: " + age +
+               ", Department: " + department;
     }
 }
