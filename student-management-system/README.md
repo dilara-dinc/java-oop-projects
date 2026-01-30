@@ -1,30 +1,31 @@
 # Student Management System
 
-This project is a simple Java-based student management system designed to demonstrate object-oriented programming principles.
+This is a simple console-based Student Management System written in Java.
+The project is designed to practice Object-Oriented Programming (OOP) concepts
+and basic CRUD operations.
 
 ## Features
-- Add students
+- Add a new student
 - List all students
-- Object-oriented design (Model-Service separation)
+- Find a student by ID
+- Remove a student by ID
+- Menu-driven console interface
 
-## Technologies
+## Technologies Used
 - Java
 - Object-Oriented Programming (OOP)
 - Collections (ArrayList)
 
 ## Project Structure
+
 student-management-system/
 ├── src/
-│   ├── model/
-│   │   └── Student.java
-│   ├── service/
-│   │   └── StudentService.java
-│   └── Main.java
+│ ├── model/
+│ │ └── Student.java
+│ ├── service/
+│ │ └── StudentService.java
+│ └── Main.java
 └── README.md
-
-## How to Run
-1. Compile the Java files
-2. Run `Main.java`
 
 ## Author
 Dilara Dinç  
